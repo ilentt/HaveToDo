@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 * [ ] Tweak the style improving the UI / UX, play with colors, images or backgrounds
 
 The following **additional** features are implemented:
-* [x] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of EditText for editing items
+* [x] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of EditText for adding items
 * [x] Add support for type the priority of each todo item (and display in listview item)
 
 ## Video Walkthrough 
