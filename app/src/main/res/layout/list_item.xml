@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:id="@+id/list_item_task_name"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/list_item_task_priority"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/button_done"
+        android:id="@+id/list_item_done_button"/>
+</LinearLayout>
